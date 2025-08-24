@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <menu http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-sccale=1">
+        <title>Personal Portfolio Website -Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/505fc163f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>  
+            <div class ="header-text">
+                <p> Web Developer</p>
+                <h1>Hi, I'm<span> Dhanush</span><br> From TamilNadu</h1>
+            </div>
+        </div>
+
+    </div>
+<!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="images/user.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am currently pursuing an MCA degree with a strong foundation in Java and web development. My academic journey has been enriched by practical experience, including the successful development and implementation of a hotel room booking management system using Java and Spring Boot. This project, completed ahead of schedule and within budget, allowed me to apply my theoretical knowledge to a real-world scenario, honing my skills in project management, problem-solving, and teamwork. I am eager to contribute my technical expertise and enthusiasm to a challenging and innovative environment within the IT industry. I am a quick learner with a strong work ethic and a passion for technology."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                        <li><span>HTML5</span><br>The structure of a web page.</li>
+                        <li><span>Css</span><br>Controls the appearance and layout of a web page.</li>
+                        
+                        <li><span>javascript</span><br>Adds interactivity and dynamic behavior to web pages.</li>
+                        
+                        <li><span>Web development</span><br>Building websites and web applications.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Experience">
+                    <ul>
+                        <li><span>2024</span><br>Core Java Certification from Well Skilled Mind Organization</li>
+                        <li><span>2023</span><br>Final Year Project: Hotel Room Booking Management (Php & MySQL)</li>
+                        <li><span>2021</span><br>Completed a workshop on "Introduction to Java Programming"</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>2024-2026</span><br>Currently Studying Master of Computer Applications (MCA) from Jain University</li>
+                        <li><span>2021 -2024</span><br>Bachelor of Computer Applications (BCA) from SCSVMV Deemed University</li>
+                        <li><span>2020-2021</span><br>Higher Secondary School Certificate from Tamil Nadu State Board</li>     
+                    </ul>
+             </div>
+          </div>
+        </div>
+    </div>
+ </div>
+<!-- Services -->
+ <div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa fa-laptop-code"></i>
+                <h2>CODTECH </h2>
+                <h2>DATASCIENCE - INTERNSHIP</h2>
+                <p>Completed a Data Science internship at CODTECH IT Solutions, gaining hands-on experience in data preprocessing, cleaning, visualization, and predictive modeling using Python libraries (Pandas, NumPy, Scikit-learn). Strengthened analytical and problem-solving skills while applying machine learning techniques to real-world datasets</p>
+                <a href="https://drive.google.com/file/d/1xP8Sim1qXIC2R_tIV5GgZdVhfe1LsFVz/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div>
+                <i class="fa fa-users-cog"></i>
+                <h2>RESEARCH PAPER</h2>
+                <h2>Edge Computing and AI for Real Time Analytics in SmartDevices</h2>
+                <h2>Conference- Asian Journal of Basic Science & Research</h2>
+                <p>Edge-AI processes data directly on smart devices to deliver low-latency, private, and energy-aware real-time analytics across IoT, healthcare, and mobility.</p>
+                <a href="https://ajbsr.net/data/uploads/9271.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+     
+</div>
+</div>
+ </div>
+ <!-- portfolio -->
+  <div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work & Certificate</h1>
+        <div class ="work-list">
+            <div class="work">
+                <img src="images/work-1.webp">
+                <div class ="layer">
+                <h3>Hotel-Room Booking Management</h3>
+                <p> Developed a Web-Based Hotel Booking System with availability, booking, and database integration.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.webp.webp">
+                <div class ="layer">
+                    <h3>Core Java</h3>
+                    <p> Core Java provides strong fundamentals like platform independence, memory management, and multithreading for building efficient applications.</p>
+                    <a href="images/Dhanush core java.jpeg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class ="layer">
+                <h3>Udemy Full-Stack Web development</h3>
+                <p> Udemy's full-stack web development courses cover the essentials of front-end and back-end technologies, including HTML, CSS, JavaScript, React, Node.js, and MongoDB.</p>
+                <a href="images/Udemy web development.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+        </div>
+        <div class="work">
+            <img src="images/work-4.jpg">
+            <div class ="layer">
+                <h3>Foundations: Data, Data, Everywhere - Google</h3>
+                <p> Built strong fundamentals in data analytics, focusing on collection, interpretation, and data-driven decision making..</p>
+                <a href="https://coursera.org/share/8c553cb7c8b61b0f9699937dfa98d100"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+        </div>
+        <div class="work">
+            <img src="images/work-5.jpg">
+            <div class ="layer">
+                <h3>Introduction to Artificial Intelligence- IBM </h3>
+                <p> Gained foundational knowledge of Artificial Intelligence, including key concepts in machine learning, neural networks, and real-world AI applications.</p>
+                <a href="https://coursera.org/share/82711c7a9dc9adba12b8c5e8803b83d0"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+            <img src="images/work-6.png">
+            <div class ="layer">
+                <h3>Introduction to Cloud Computing - IBM </h3>
+                <p> Cloud computing delivers computing services over the internet, offering flexibility, scalability, and cost efficiency.</p>
+                <a href="https://coursera.org/share/d8b832a37f686600bcdecfbf12a81e37"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+            <img src="images/work-7.png">
+            <div class ="layer">
+                <h3>Docker Deep Dive: Build, Ship, and Run Containers - Udemy</h3>
+                <p> The Docker Deep Dive course helped me gain practical knowledge of containerization, including building images, managing containers, and deploying scalable applications with Docker..</p>
+                <a href="https://coursera.org/share/d8b832a37f686600bcdecfbf12a81e37"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+
+<div>
+        
+        </div>
+        </div>
+  </div>
+    <!-- contact -->
+     <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>dhanush2619917@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8940593979</p>
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com/share/18Z5VGxC6i/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/DhanushSk172?t=i2s9RzDbYpGhAOeUaMVlSw&s=09"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/dhanush_sk__17?igsh=MWs0eG1sdDhrbnR4Zg=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dhanush-d-bca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a> </div>
+                    <a href ="images/Dhanush.D resume .pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required> 
+                <textarea name="Message" rows="6" placeholder="Your Message "></textarea>
+               <button type="submit"class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+                </div>
+                </div>
+        </div>
+        <div class="Copyright">
+            <p>© 2025 Dhanush Portfolio. All rights reserved.</p>
+        </div>
+     </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }   
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwFL3i27jldua67m4_o9GlRdsolpJzIe0yjOTDUJb-HV-cI9_9yVWJ6ZbjL6LSv6NJXpQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully";
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+     
+</html>
